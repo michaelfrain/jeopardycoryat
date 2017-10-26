@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB3F97221FA28781001F3D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F97211FA28781001F3D03 /* AppDelegate.swift */; };
+		EB3F97241FA28781001F3D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F97231FA28781001F3D03 /* ViewController.swift */; };
+		EB3F97271FA28781001F3D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3F97251FA28781001F3D03 /* Main.storyboard */; };
+		EB3F972A1FA28781001F3D03 /* JeopardyCoryat1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB3F97281FA28781001F3D03 /* JeopardyCoryat1.xcdatamodeld */; };
+		EB3F972C1FA28781001F3D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3F972B1FA28781001F3D03 /* Assets.xcassets */; };
+		EB3F972F1FA28781001F3D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3F972D1FA28781001F3D03 /* LaunchScreen.storyboard */; };
+		EB3F973A1FA28781001F3D03 /* JeopardyCoryat1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F97391FA28781001F3D03 /* JeopardyCoryat1Tests.swift */; };
+		EB3F97451FA28782001F3D03 /* JeopardyCoryat1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F97441FA28782001F3D03 /* JeopardyCoryat1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB3F97361FA28781001F3D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3F97161FA28781001F3D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3F971D1FA28781001F3D03;
+			remoteInfo = JeopardyCoryat1;
+		};
+		EB3F97411FA28782001F3D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3F97161FA28781001F3D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3F971D1FA28781001F3D03;
+			remoteInfo = JeopardyCoryat1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB3F971E1FA28781001F3D03 /* JeopardyCoryat1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeopardyCoryat1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3F97211FA28781001F3D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB3F97231FA28781001F3D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB3F97261FA28781001F3D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB3F97291FA28781001F3D03 /* JeopardyCoryat1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JeopardyCoryat1.xcdatamodel; sourceTree = "<group>"; };
+		EB3F972B1FA28781001F3D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3F972E1FA28781001F3D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB3F97301FA28781001F3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3F97351FA28781001F3D03 /* JeopardyCoryat1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeopardyCoryat1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3F97391FA28781001F3D03 /* JeopardyCoryat1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeopardyCoryat1Tests.swift; sourceTree = "<group>"; };
+		EB3F973B1FA28781001F3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3F97401FA28782001F3D03 /* JeopardyCoryat1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeopardyCoryat1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3F97441FA28782001F3D03 /* JeopardyCoryat1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeopardyCoryat1UITests.swift; sourceTree = "<group>"; };
+		EB3F97461FA28782001F3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3F971B1FA28781001F3D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F97321FA28781001F3D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F973D1FA28782001F3D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3F97151FA28781001F3D03 = {
+			isa = PBXGroup;
+			children = (
+				EB3F97201FA28781001F3D03 /* JeopardyCoryat1 */,
+				EB3F97381FA28781001F3D03 /* JeopardyCoryat1Tests */,
+				EB3F97431FA28782001F3D03 /* JeopardyCoryat1UITests */,
+				EB3F971F1FA28781001F3D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3F971F1FA28781001F3D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F971E1FA28781001F3D03 /* JeopardyCoryat1.app */,
+				EB3F97351FA28781001F3D03 /* JeopardyCoryat1Tests.xctest */,
+				EB3F97401FA28782001F3D03 /* JeopardyCoryat1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3F97201FA28781001F3D03 /* JeopardyCoryat1 */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F97211FA28781001F3D03 /* AppDelegate.swift */,
+				EB3F97231FA28781001F3D03 /* ViewController.swift */,
+				EB3F97251FA28781001F3D03 /* Main.storyboard */,
+				EB3F972B1FA28781001F3D03 /* Assets.xcassets */,
+				EB3F972D1FA28781001F3D03 /* LaunchScreen.storyboard */,
+				EB3F97301FA28781001F3D03 /* Info.plist */,
+				EB3F97281FA28781001F3D03 /* JeopardyCoryat1.xcdatamodeld */,
+			);
+			path = JeopardyCoryat1;
+			sourceTree = "<group>";
+		};
+		EB3F97381FA28781001F3D03 /* JeopardyCoryat1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F97391FA28781001F3D03 /* JeopardyCoryat1Tests.swift */,
+				EB3F973B1FA28781001F3D03 /* Info.plist */,
+			);
+			path = JeopardyCoryat1Tests;
+			sourceTree = "<group>";
+		};
+		EB3F97431FA28782001F3D03 /* JeopardyCoryat1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F97441FA28782001F3D03 /* JeopardyCoryat1UITests.swift */,
+				EB3F97461FA28782001F3D03 /* Info.plist */,
+			);
+			path = JeopardyCoryat1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3F971D1FA28781001F3D03 /* JeopardyCoryat1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3F97491FA28782001F3D03 /* Build configuration list for PBXNativeTarget "JeopardyCoryat1" */;
+			buildPhases = (
+				EB3F971A1FA28781001F3D03 /* Sources */,
+				EB3F971B1FA28781001F3D03 /* Frameworks */,
+				EB3F971C1FA28781001F3D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JeopardyCoryat1;
+			productName = JeopardyCoryat1;
+			productReference = EB3F971E1FA28781001F3D03 /* JeopardyCoryat1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB3F97341FA28781001F3D03 /* JeopardyCoryat1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3F974C1FA28782001F3D03 /* Build configuration list for PBXNativeTarget "JeopardyCoryat1Tests" */;
+			buildPhases = (
+				EB3F97311FA28781001F3D03 /* Sources */,
+				EB3F97321FA28781001F3D03 /* Frameworks */,
+				EB3F97331FA28781001F3D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3F97371FA28781001F3D03 /* PBXTargetDependency */,
+			);
+			name = JeopardyCoryat1Tests;
+			productName = JeopardyCoryat1Tests;
+			productReference = EB3F97351FA28781001F3D03 /* JeopardyCoryat1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB3F973F1FA28782001F3D03 /* JeopardyCoryat1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3F974F1FA28782001F3D03 /* Build configuration list for PBXNativeTarget "JeopardyCoryat1UITests" */;
+			buildPhases = (
+				EB3F973C1FA28782001F3D03 /* Sources */,
+				EB3F973D1FA28782001F3D03 /* Frameworks */,
+				EB3F973E1FA28782001F3D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3F97421FA28782001F3D03 /* PBXTargetDependency */,
+			);
+			name = JeopardyCoryat1UITests;
+			productName = JeopardyCoryat1UITests;
+			productReference = EB3F97401FA28782001F3D03 /* JeopardyCoryat1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3F97161FA28781001F3D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Michael Frain";
+				TargetAttributes = {
+					EB3F971D1FA28781001F3D03 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EB3F97341FA28781001F3D03 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB3F971D1FA28781001F3D03;
+					};
+					EB3F973F1FA28782001F3D03 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB3F971D1FA28781001F3D03;
+					};
+				};
+			};
+			buildConfigurationList = EB3F97191FA28781001F3D03 /* Build configuration list for PBXProject "JeopardyCoryat1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3F97151FA28781001F3D03;
+			productRefGroup = EB3F971F1FA28781001F3D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3F971D1FA28781001F3D03 /* JeopardyCoryat1 */,
+				EB3F97341FA28781001F3D03 /* JeopardyCoryat1Tests */,
+				EB3F973F1FA28782001F3D03 /* JeopardyCoryat1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3F971C1FA28781001F3D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3F972F1FA28781001F3D03 /* LaunchScreen.storyboard in Resources */,
+				EB3F972C1FA28781001F3D03 /* Assets.xcassets in Resources */,
+				EB3F97271FA28781001F3D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F97331FA28781001F3D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F973E1FA28782001F3D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3F971A1FA28781001F3D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3F97241FA28781001F3D03 /* ViewController.swift in Sources */,
+				EB3F97221FA28781001F3D03 /* AppDelegate.swift in Sources */,
+				EB3F972A1FA28781001F3D03 /* JeopardyCoryat1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F97311FA28781001F3D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3F973A1FA28781001F3D03 /* JeopardyCoryat1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F973C1FA28782001F3D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3F97451FA28782001F3D03 /* JeopardyCoryat1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB3F97371FA28781001F3D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3F971D1FA28781001F3D03 /* JeopardyCoryat1 */;
+			targetProxy = EB3F97361FA28781001F3D03 /* PBXContainerItemProxy */;
+		};
+		EB3F97421FA28782001F3D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3F971D1FA28781001F3D03 /* JeopardyCoryat1 */;
+			targetProxy = EB3F97411FA28782001F3D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB3F97251FA28781001F3D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3F97261FA28781001F3D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB3F972D1FA28781001F3D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3F972E1FA28781001F3D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB3F97471FA28782001F3D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB3F97481FA28782001F3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB3F974A1FA28782001F3D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJL6F79Y;
+				INFOPLIST_FILE = JeopardyCoryat1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.JeopardyCoryat1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB3F974B1FA28782001F3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJL6F79Y;
+				INFOPLIST_FILE = JeopardyCoryat1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.JeopardyCoryat1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB3F974D1FA28782001F3D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJL6F79Y;
+				INFOPLIST_FILE = JeopardyCoryat1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.JeopardyCoryat1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeopardyCoryat1.app/JeopardyCoryat1";
+			};
+			name = Debug;
+		};
+		EB3F974E1FA28782001F3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJL6F79Y;
+				INFOPLIST_FILE = JeopardyCoryat1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.JeopardyCoryat1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeopardyCoryat1.app/JeopardyCoryat1";
+			};
+			name = Release;
+		};
+		EB3F97501FA28782001F3D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJL6F79Y;
+				INFOPLIST_FILE = JeopardyCoryat1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.JeopardyCoryat1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JeopardyCoryat1;
+			};
+			name = Debug;
+		};
+		EB3F97511FA28782001F3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJL6F79Y;
+				INFOPLIST_FILE = JeopardyCoryat1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.JeopardyCoryat1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JeopardyCoryat1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3F97191FA28781001F3D03 /* Build configuration list for PBXProject "JeopardyCoryat1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F97471FA28782001F3D03 /* Debug */,
+				EB3F97481FA28782001F3D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3F97491FA28782001F3D03 /* Build configuration list for PBXNativeTarget "JeopardyCoryat1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F974A1FA28782001F3D03 /* Debug */,
+				EB3F974B1FA28782001F3D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3F974C1FA28782001F3D03 /* Build configuration list for PBXNativeTarget "JeopardyCoryat1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F974D1FA28782001F3D03 /* Debug */,
+				EB3F974E1FA28782001F3D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3F974F1FA28782001F3D03 /* Build configuration list for PBXNativeTarget "JeopardyCoryat1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F97501FA28782001F3D03 /* Debug */,
+				EB3F97511FA28782001F3D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB3F97281FA28781001F3D03 /* JeopardyCoryat1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB3F97291FA28781001F3D03 /* JeopardyCoryat1.xcdatamodel */,
+			);
+			currentVersion = EB3F97291FA28781001F3D03 /* JeopardyCoryat1.xcdatamodel */;
+			path = JeopardyCoryat1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB3F97161FA28781001F3D03 /* Project object */;
+}
