@@ -1,15 +1,15 @@
 //
-//  JeopardyCoryat1Tests.swift
-//  JeopardyCoryat1Tests
+//  jeopardycoryatTests.swift
+//  jeopardycoryatTests
 //
-//  Created by Frain, Michael F. on 10/26/17.
+//  Created by Frain, Michael F. on 10/27/17.
 //  Copyright © 2017 Michael Frain. All rights reserved.
 //
 
 import XCTest
-@testable import JeopardyCoryat1
+@testable import jeopardycoryat
 
-class JeopardyCoryat1Tests: XCTestCase {
+class jeopardycoryatTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  JeopardyCoryat1
+//  jeopardycoryat
 //
-//  Created by Frain, Michael F. on 10/26/17.
+//  Created by Frain, Michael F. on 10/27/17.
 //  Copyright © 2017 Michael Frain. All rights reserved.
 //
 
