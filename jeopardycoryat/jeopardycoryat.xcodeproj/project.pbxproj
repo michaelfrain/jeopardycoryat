@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		EB0055C01FA37B7A00C9ABA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0055BF1FA37B7A00C9ABA3 /* AppDelegate.swift */; };
-		EB0055C21FA37B7A00C9ABA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0055C11FA37B7A00C9ABA3 /* ViewController.swift */; };
-		EB0055C51FA37B7A00C9ABA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0055C31FA37B7A00C9ABA3 /* Main.storyboard */; };
 		EB0055C81FA37B7A00C9ABA3 /* jeopardycoryat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB0055C61FA37B7A00C9ABA3 /* jeopardycoryat.xcdatamodeld */; };
 		EB0055CA1FA37B7A00C9ABA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0055C91FA37B7A00C9ABA3 /* Assets.xcassets */; };
 		EB0055CD1FA37B7A00C9ABA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0055CB1FA37B7A00C9ABA3 /* LaunchScreen.storyboard */; };
 		EB0055D81FA37B7A00C9ABA3 /* jeopardycoryatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0055D71FA37B7A00C9ABA3 /* jeopardycoryatTests.swift */; };
 		EB0055E31FA37B7A00C9ABA3 /* jeopardycoryatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0055E21FA37B7A00C9ABA3 /* jeopardycoryatUITests.swift */; };
+		EB0055F11FA37E9B00C9ABA3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0055F01FA37E9B00C9ABA3 /* CoreDataManager.swift */; };
+		EB42BA991FA9271300C46BB4 /* Round+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB42BA931FA9271300C46BB4 /* Round+CoreDataClass.swift */; };
+		EB42BA9A1FA9271300C46BB4 /* Round+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB42BA941FA9271300C46BB4 /* Round+CoreDataProperties.swift */; };
+		EB42BA9B1FA9271300C46BB4 /* Clue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB42BA951FA9271300C46BB4 /* Clue+CoreDataClass.swift */; };
+		EB42BA9C1FA9271300C46BB4 /* Clue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB42BA961FA9271300C46BB4 /* Clue+CoreDataProperties.swift */; };
+		EB42BA9D1FA9271300C46BB4 /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB42BA971FA9271300C46BB4 /* Game+CoreDataClass.swift */; };
+		EB42BA9E1FA9271300C46BB4 /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB42BA981FA9271300C46BB4 /* Game+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		EB0055BC1FA37B7A00C9ABA3 /* jeopardycoryat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jeopardycoryat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0055BF1FA37B7A00C9ABA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB0055C11FA37B7A00C9ABA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB0055C41FA37B7A00C9ABA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB0055C71FA37B7A00C9ABA3 /* jeopardycoryat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jeopardycoryat.xcdatamodel; sourceTree = "<group>"; };
 		EB0055C91FA37B7A00C9ABA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0055CC1FA37B7A00C9ABA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		EB0055DE1FA37B7A00C9ABA3 /* jeopardycoryatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jeopardycoryatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0055E21FA37B7A00C9ABA3 /* jeopardycoryatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeopardycoryatUITests.swift; sourceTree = "<group>"; };
 		EB0055E41FA37B7A00C9ABA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0055F01FA37E9B00C9ABA3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EB42BA931FA9271300C46BB4 /* Round+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Round+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB42BA941FA9271300C46BB4 /* Round+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Round+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB42BA951FA9271300C46BB4 /* Clue+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB42BA961FA9271300C46BB4 /* Clue+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB42BA971FA9271300C46BB4 /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB42BA981FA9271300C46BB4 /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,9 @@
 		EB0055BE1FA37B7A00C9ABA3 /* jeopardycoryat */ = {
 			isa = PBXGroup;
 			children = (
+				EB0055F21FA381E200C9ABA3 /* Models */,
 				EB0055BF1FA37B7A00C9ABA3 /* AppDelegate.swift */,
-				EB0055C11FA37B7A00C9ABA3 /* ViewController.swift */,
-				EB0055C31FA37B7A00C9ABA3 /* Main.storyboard */,
+				EB0055F01FA37E9B00C9ABA3 /* CoreDataManager.swift */,
 				EB0055C91FA37B7A00C9ABA3 /* Assets.xcassets */,
 				EB0055CB1FA37B7A00C9ABA3 /* LaunchScreen.storyboard */,
 				EB0055CE1FA37B7A00C9ABA3 /* Info.plist */,
@@ -126,6 +136,19 @@
 				EB0055E41FA37B7A00C9ABA3 /* Info.plist */,
 			);
 			path = jeopardycoryatUITests;
+			sourceTree = "<group>";
+		};
+		EB0055F21FA381E200C9ABA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB42BA931FA9271300C46BB4 /* Round+CoreDataClass.swift */,
+				EB42BA941FA9271300C46BB4 /* Round+CoreDataProperties.swift */,
+				EB42BA951FA9271300C46BB4 /* Clue+CoreDataClass.swift */,
+				EB42BA961FA9271300C46BB4 /* Clue+CoreDataProperties.swift */,
+				EB42BA971FA9271300C46BB4 /* Game+CoreDataClass.swift */,
+				EB42BA981FA9271300C46BB4 /* Game+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +260,6 @@
 			files = (
 				EB0055CD1FA37B7A00C9ABA3 /* LaunchScreen.storyboard in Resources */,
 				EB0055CA1FA37B7A00C9ABA3 /* Assets.xcassets in Resources */,
-				EB0055C51FA37B7A00C9ABA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0055C21FA37B7A00C9ABA3 /* ViewController.swift in Sources */,
+				EB42BA9B1FA9271300C46BB4 /* Clue+CoreDataClass.swift in Sources */,
+				EB42BA9D1FA9271300C46BB4 /* Game+CoreDataClass.swift in Sources */,
+				EB42BA9A1FA9271300C46BB4 /* Round+CoreDataProperties.swift in Sources */,
+				EB42BA991FA9271300C46BB4 /* Round+CoreDataClass.swift in Sources */,
+				EB0055F11FA37E9B00C9ABA3 /* CoreDataManager.swift in Sources */,
+				EB42BA9C1FA9271300C46BB4 /* Clue+CoreDataProperties.swift in Sources */,
 				EB0055C01FA37B7A00C9ABA3 /* AppDelegate.swift in Sources */,
 				EB0055C81FA37B7A00C9ABA3 /* jeopardycoryat.xcdatamodeld in Sources */,
+				EB42BA9E1FA9271300C46BB4 /* Game+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB0055C31FA37B7A00C9ABA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB0055C41FA37B7A00C9ABA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB0055CB1FA37B7A00C9ABA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
